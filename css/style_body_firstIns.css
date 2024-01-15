@@ -1,0 +1,15 @@
+/*style css pour le body et le background, c'est une image différente de l'image de base"*/
+body{
+    background-image: url('../images/welcome.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica;
+      color: rgba(0, 0, 0, 0.7);
+    }
+    

@@ -1,0 +1,110 @@
+nav {
+    background-color: white;
+    padding: 15px;
+    position: relative;
+}
+
+nav a.logout {
+    margin-left: auto;
+    margin-top: 0%;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.nom-profile {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+li {
+    margin-right: 15px;
+    position: relative;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(68, 126, 225, 0.05);
+    box-shadow: 0 0 12px rgb(216, 234, 242);
+    color :black;
+    border-radius: 6px;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 100%;
+    left: 0;
+    padding : 12px 0;
+    background-color:  rgb(250, 250, 250);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    position: relative; /* Ajoutez cette ligne pour positionner le menu déroulant par rapport à cet élément */
+}
+
+.user-profile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%; /* Placez le côté gauche du menu à 50% de la largeur du parent */
+    transform: translate(-80%, -0%); /* Centrez le menu en ajustant de moitié de sa propre taille */
+    border: 1px solid #ccc;
+    padding: 12px 0;
+    background-color: rgb(250, 250, 250);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.profile-picture {
+    width: 40px; /* Largeur fixe de la photo de profil */
+    height: 40px; /* Hauteur fixe de la photo de profil */
+    overflow: hidden; /* Masquer le débordement pour garantir un cercle parfait */
+    border-radius: 50%; /* Pour créer une forme de cercle */
+    border: 2px solid white; /* Bordure blanche */
+    margin-left: auto;
+    object-fit: cover;
+    margin-right: 6px; 
+}
+
+
+ul li:hover > ul {
+    display: inherit;
+    
+}
+
+ul ul li {
+    width: 150px;
+    height: 32px;
+    float: none;
+    left: 5px;
+    display: list-item;
+    position: relative;
+    text-align :left;
+}
+
+ul ul ul li {
+    position: relative;
+}

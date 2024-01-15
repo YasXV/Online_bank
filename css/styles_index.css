@@ -1,0 +1,170 @@
+/* styles.css */
+
+/* Style pour les link a */
+.alien{
+    text-decoration: none;
+    color: rgba(68, 126, 245, 0.90);
+}
+.white-banner {
+    background-color: white;
+    width: 100%;
+    padding: 30px 0; 
+    margin-top: 250px;
+    text-align: center;
+    border-bottom: 1px solid #ccc; 
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid rgb(230, 230, 230);
+    text-align: left;
+    padding: 6px;
+    padding: auto;
+}
+
+th {
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+tr:hover {
+    background-color:rgb(250, 250, 250);
+}
+
+.bottom-right-message {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alien:hover{
+    box-shadow: 0 0 3px rgba(68, 126, 225, 0.05);
+    background-color: rgba(68, 126, 225, 0.05);
+    color: rgba(68, 126, 245, 1);
+}
+
+.page-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.style_compe{
+    background-color: bisque;
+    color: rgba(68, 126, 225, 0.05);
+    text-decoration : underline;
+}
+
+
+.container {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: auto;
+    border-radius: 6px;
+    border : none;
+    background-color: #fff;
+    box-shadow: 0 0 12px lightblue;
+    text-align: center;
+}
+
+.right-content {
+    flex: 1; /* Le contenu de droite prendra également l'espace disponible */
+    padding-left: 20px;
+}
+
+input
+ {
+    padding: 10px 25px;
+    width: 75%;
+    max-width: 75%;
+    border-radius: 6px;
+    margin: 10px auto;
+    border-width: 1px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    background-color : lightskyblue;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* Personnalisation des indicateurs du navigateur Webkit (Chrome, Edge) */
+    background-color: lightskyblue; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 4px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgba(110, 181, 250, 0.9);
+}
+
+.input-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+select {
+    background-color: #f0f0f0; /* Couleur de fond */
+    color: rgba(0, 0, 0, 0.7);; /* Couleur du texte */
+    padding: 10px; /* Rembourrage intérieur */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 6px; /* Coins arrondis */
+    width: 100%; /* Largeur */
+}
+/* Style des options dans la liste déroulante */
+select option {
+    background-color: #fff; /* Couleur de fond des options */
+    color: rgba(0, 0, 0, 0.7); /* Couleur du texte des options */
+    padding: 10px; /* Rembourrage intérieur des options */
+}
+
+.myerr {
+    color: rgba(163, 3, 3, 0.692);
+    font-size: smaller;
+    text-align: center;
+}
+
+.congrats {
+    color: rgba(55, 152, 20, 0.692);
+    font-size: smaller;
+    text-align: center;
+}
+
+

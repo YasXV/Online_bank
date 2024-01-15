@@ -1,0 +1,18 @@
+/*style css pour le body et le background"*/
+body{
+      background-color:white;
+      background-image:url('../images/index.png');
+      background-attachment:fixed;
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position:center center;
+      justify-content: center;
+      align-items: center;
+      overflow :visible;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family : Helvetica;
+      color: rgba(0, 0, 0, 0.7);
+    }
+
